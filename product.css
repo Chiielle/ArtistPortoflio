@@ -1,0 +1,80 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300;400;700&display=swap');
+
+/* General Styles */
+body {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:zswuupwfqcf6oh2pdu7hwhji/bafkreieaitc7fnbvud3mrsamtg3ce5ocdpovxpmdxs7s7f3pjwy67jzdge@jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand .logo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #463464;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive !important; 
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ce6b8a;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #ce6b8a;
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover {
+    color: #463464;
+}
+
+/* Styling for the colored and sketch sections */
+.colored-section, .sketch-section {
+    font-family: 'Fredoka One', cursive; 
+    color: #efdae3; 
+    padding: 40px 20px; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    text-align: center; 
+}
+
+/* Specific styling for each section */
+.colored-section {
+    padding: 20px;
+}
+
+.sketch-section {
+    padding: 20px;
+
+}
+  
+  /* Styling for images */
+  .image-container img {
+    border: 5px solid #463464; /* Black border */
+    border-radius: 1px;
+    max-width: 110%;
+    height: auto;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }

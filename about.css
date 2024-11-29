@@ -1,0 +1,186 @@
+/* Importing Fun and Dynamic Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300;400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efdae3;
+    color: #463464;
+    background: url(https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:zswuupwfqcf6oh2pdu7hwhji/bafkreiaii7o6n7z4lyeya3blw5727v2auzaruwagv2au7ykv5hzxg2vs2m@jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand .logo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #463464;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive !important; 
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ce6b8a;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #ce6b8a;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover {
+    color: #463464;
+}
+
+/* Header Section */
+header.hero-section {
+    background-color: #463464;
+    color: #ffffff;
+    background: url(https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:zswuupwfqcf6oh2pdu7hwhji/bafkreieaitc7fnbvud3mrsamtg3ce5ocdpovxpmdxs7s7f3pjwy67jzdge@jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header.hero-section h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header.hero-section p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* Section Titles */
+section h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #463464;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* General Section Styling */
+section {
+    padding: 50px 20px;
+}
+
+/* About Us Section */
+#about-us img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#about-us p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#about-us button {
+    background-color: #ce6b8a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Fredoka One', cursive;
+    transition: background-color 0.3s ease;
+}
+
+#about-us button:hover {
+    background-color: #463464;
+    color: #ffffff;
+}
+
+/* Project Section */
+#projects .projects {
+    margin-bottom: 30px;
+}
+
+#projects .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#projects .card-title {
+    font-family: 'Fredoka One', cursive;
+    color: #463464;
+}
+
+#projects .card-text {
+    font-size: 0.9rem;
+    color: #463464;
+}
+
+#projects .card-text small {
+    font-style: italic;
+    color: #ce6b8a;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #ce6b8a;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.cta-section p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cta-section .cta-button {
+    background-color: #eebbc4;
+    color: #463464;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #463464;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header.hero-section h1 {
+        font-size: 2rem;
+    }
+
+    #about-us img {
+        margin-bottom: 20px;
+    }
+
+    .cta-section p {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,151 @@
+/* Importing Fun and Dynamic Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300;400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efdae3;
+    color: #463464;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand .logo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #463464;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive !important; 
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ce6b8a;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #ce6b8a;
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover {
+    color: #463464;
+}
+
+/* Header Section */
+.hero-section {
+    
+    background-color: #463464;
+    color: #eebbc4;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #efdae3;
+}
+
+/* Services Section */
+.services-section .service-box {
+    background-color: #c4bbda;
+    color: #463464;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    font-family: 'Nunito', sans-serif;
+}
+
+.services-section .service-box:hover {
+    transform: translateY(-10px);
+    background-color: #eebbc4;
+}
+
+.services-section .service-box img {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.services-section h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.services-section p {
+    font-size: 1rem;
+    color: #463464;
+    font-weight: 300;
+}
+
+/* Business Section */
+.business-section h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #463464;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.business-section p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    color: #463464;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #ce6b8a;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 0;
+}
+
+.cta-section p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cta-section .cta-button {
+    background-color: #eebbc4;
+    color: #463464;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #463464;
+    color: #ffffff;
+    transform: scale(1.05);
+}
